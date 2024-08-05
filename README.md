@@ -3,29 +3,29 @@
 
 1. Open VirtualBox and click on "New".
    
-![image](https://github.com/user-attachments/assets/7cbaa029-3418-4048-90b6-79e0b44d3511)
+![image](https://github.com/user-attachments/assets/a3838365-014f-4f4c-8d93-6ab635cc7241)
 
 3. set OS "Linux" and the version as "Ubuntu (64-bit)".
    
-![image](https://github.com/user-attachments/assets/52939439-b27b-47f3-af81-b7695233d27d)
+![image](https://github.com/user-attachments/assets/2289122b-09f4-4aa7-9af9-2f884057fcb8)
 
 5. Set the memory size (RAM). 
    
-![image](https://github.com/user-attachments/assets/ba8d1c7b-469c-4b28-8ba0-040b7ee9f47a)
+![image](https://github.com/user-attachments/assets/179c6442-3206-4ee6-9458-0f9590abef80)
 
 7. Set the size of the virtual hard disk.
    
-![image](https://github.com/user-attachments/assets/108636af-fbae-4c11-a4c7-4e7736a70857)
+![image](https://github.com/user-attachments/assets/2fa29269-aeaf-4db6-a843-bdc74dfa6eea)
 
 9. After Creating it , we first define the ISO file.
     
-![image](https://github.com/user-attachments/assets/02212dfa-0773-491a-bf29-5926d0ff128d)
+![image](https://github.com/user-attachments/assets/bc1476be-55ab-4332-8810-e71769e30ef8)
 
-![image](https://github.com/user-attachments/assets/c5bf255d-7d37-44f4-b395-be350a534580)
+![image](https://github.com/user-attachments/assets/5a0e3612-9ad2-46d0-a725-51b9b68fe703)
 
-![image](https://github.com/user-attachments/assets/4429058f-83dc-4fe2-adb3-9aa071e0a3a8)
+![image](https://github.com/user-attachments/assets/8d10dcd3-0e3f-4af3-9665-87f8021162ca)
 
-![image](https://github.com/user-attachments/assets/16f830ea-a734-4353-bb46-721d02145531)
+![image](https://github.com/user-attachments/assets/5b6c8022-bdab-42f8-a966-070f10d8c925)
 
 
 
@@ -34,9 +34,7 @@
     sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
     ```
 
-    ![1](https://github.com/user-attachments/assets/f5f1bcff-59ee-4769-a977-2815ff83f76a)
-
-
+    ![1](https://github.com/user-attachments/assets/7369f815-7b5d-42ae-a224-ac83dfae915e)
 
 
 3. Add the ROS key:
@@ -45,19 +43,21 @@
     sudo apt install curl
     ```
     
-    ![image](https://github.com/user-attachments/assets/468124df-710e-4ef7-9dd0-de271ff81291)
+   ![image](https://github.com/user-attachments/assets/355ccd74-ba0c-445b-a7f5-04f94b0dd1d2)
+
+   ![image](https://github.com/user-attachments/assets/3681ad7f-68fb-40c2-b5d3-9e4d3e3726a9)
 
 
 
-4. Update the package list:
+5. Update the package list:
     ```bash
     sudo apt update
     ```
-    
-    ![image](https://github.com/user-attachments/assets/f73de8f8-4500-469a-954f-c367db4ce0c4)
+    ![image](https://github.com/user-attachments/assets/8cc0edc8-10f2-42dc-9a98-df27b3da3ddb)
 
 
-5. then afterwards we Install the full version of ROS (Noetic) and Set up the ROS environment:
+
+6. then afterwards we Install the full version of ROS (Noetic) and Set up the ROS environment:
   
     ```bash
     sudo apt install ros-noetic-desktop-full
@@ -69,7 +69,8 @@
     ```
     then finally the ros version will be displayed , as a confirmation for successful installation.
    
-   ![5](https://github.com/user-attachments/assets/a3720f84-95e7-4d60-96e7-5f6dc821f764)
+    ![5](https://github.com/user-attachments/assets/cfd26278-941a-4637-8ebd-08c51c9db113)
+
 
 
 
